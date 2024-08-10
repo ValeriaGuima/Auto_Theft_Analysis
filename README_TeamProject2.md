@@ -1,12 +1,11 @@
 # Project Report
 
-This repository contains the analysis and findings of our Auto Theft project.
-### Participants: 
+
 
 #### Selection: https://data.torontopolice.on.ca/datasets/TorontoPS::auto-theft-open-data/
 
 
-# Team Project 2
+# Team Project 2 - Group 26
 
 Participants:
 Hui Li (Task 3 - Data Analysis & Visualization)
@@ -39,6 +38,8 @@ Each team member choose to work on one of the following tasks:
 4. Answer auto theft trends over years to determine whether funding into Auto Theft should be changed vs. other years.
 5. Investigate and generate writeup on the dataset to investigate biases potential errors.
 
+--
+
 ## Team Project Report: Resource Allocation for Managing Auto Theft in Toronto
 
 #### Objective
@@ -61,7 +62,8 @@ Certain columns in the dataset were found to be ambiguous or irrelevant to the a
 
 > Final Dataset
 After cleaning, the dataset was reduced to the most relevant columns, which provided a streamlined and focused dataset for subsequent analysis.
-[Overview_of_Auto_Theft_in_Toronto](Overview%20of%20Auto%20Theft%20in%20Toronto.png)
+[Overview_of_Auto_Theft_in_Toronto](overview_of_auto_theft_in_Toronto.png)
+[Initial_Data_Analysis](initial_data_analysis.ipynb)
 
 #### Task 3. Answer When (time/ days) should resources be allocated - Hui Li
 
@@ -73,8 +75,6 @@ My Contributions
 
     Data Analysis: I worked on cleaning and grouping the data by the hour of the day to prepare it for analysis.
     Polynomial Regression: I implemented polynomial regression to model the relationship between the hour of the day and the number of incidents.
-
-
 
 Teamwork and Assistance
 
@@ -98,8 +98,8 @@ Summary:
 [Regression_Analysis] (File name)
 
 #### Task 4 Auto theft trend over time  - Ryan Tsui
-[Incidents_by_Year](File name)
-[Incidents_by_Premises](src/premises_type.png)
+[Incidents_by_Year](auto_theft_trends_over_time_2.ipynb)
+[Incidents_by_Premises](premises_type.png)
 
 
 #### Task 5 Investigate and generate writeup on the dataset to investigate biases potential errors.  - Mamdouh Zaydan
@@ -164,9 +164,8 @@ Humber-Clairville neighborhood due to its high number of reported auto theft
 incidents.
 
 
-
 ## Note on Analysis
 
-Please be aware that one of the analyses conducted by a team member used a different variable, which may lead to discrepancies in the findings presented. We recommend reviewing the [discrepancy note](.src/discrepancy_note.md) for further details.
+Please be aware that one of the analyses conducted by a team member used a different variable, which may lead to discrepancies in the findings presented. We recommend reviewing the [discrepancy note](discrepancy_note.md) for further details.
 
 
