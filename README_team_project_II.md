@@ -97,9 +97,21 @@ Summary:
 [Regression_Analysis] (File name)
 
 #### Task 4 Auto theft trend over time  - Ryan Tsui
+
+Objective: Investigate whether the data suggests there is a growing trend in reported incidences over the years within the TPS dataset.
+
+Visualizations:
 [Incidents_by_Year](auto_theft_trends_over_time_2.ipynb)
 [Incidents_by_Premises](premises_type.png)
 
+Teamwork and Assistance
+
+We had a team effort in analyzing & reviewing the dataset to identify an objective that would be presentable for this analysis and potentially actionable by the audience, whether that may be the TPS, civil servants in Toronto & Ontario, or even any Toronto resident interested in the topic of Toronto Auto Theft.
+
+The cleaning of the dataset was spearheaded by Valeria and she also helped with the visualization on the split by premises type through the use of One Hot Encoding.
+
+Conclusion: 
+We see a consistent growth 
 
 #### Task 5 Investigate and generate writeup on the dataset to investigate biases potential errors.  - Mamdouh Zaydan
 [dataset](.data/processed/Auto_Theft_Open_Data_Investigation_Mzaydan.xlsx)
