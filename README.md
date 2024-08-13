@@ -37,7 +37,7 @@ Each team member selected a specific task to work on:
 - Investigating potential biases and errors in the dataset and producing a related writeup.
 
 
-##### Task 1: Introdutory Data Analysis
+#####  Introdutory Data Analysis
 Team Member: Valeria Guimaraes
 
 - Data Import
@@ -62,7 +62,7 @@ After cleaning, the dataset was reduced to the most relevant columns, which prov
 
 [Initial_Data_Analysis](./src/initial_data_analysis.ipynb)
 
-#### Task 3. Answer When (time/ days) should resources be allocated
+####  Answer When (time/ days) should resources be allocated
 Team Member: Hui Li
 
 **Project Overview**
@@ -100,7 +100,7 @@ Teamwork and ChatGPT: Mentioned to show collaboration and the value of the assis
 
 [Regression_Analysis](./src/test_regression.ipynb)
 
-#### Task 4 Auto theft trend over time
+####  Auto theft trend over time
 Team Member: Ryan Tsui
 
 Objective: Investigate whether the data suggests there is a growing trend in reported incidences over the years within the TPS dataset.
@@ -123,7 +123,7 @@ The cleaning of the dataset was spearheaded by Valeria and she also helped with 
 We see a consistent growth in auto theft since 2017 over the years which has spiked since 2022. While the years 2022 and 2023 may become outliers the overall trend points to, without intervention, the environment has shifted to likely expect increased reported auto theft occurances since 2021. 
 We also see that no single premises type is driving the increase in auto thefts, they are generally up across the board even though House Reports have become the larger portion of requests over the years in the TPS dataset.
 
-#### Task 5 Investigate and generate writeup on the dataset to investigate biases potential errors.
+#### Investigate and generate writeup on the dataset to investigate biases potential errors.
 Team Member: Mamdouh Zaydan
 [Excel_dataset](./data/processed/Auto_Theft_Open_Data_Investigation_Mzaydan.xlsx)
 
