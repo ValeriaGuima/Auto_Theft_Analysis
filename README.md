@@ -16,7 +16,7 @@
 https://data.torontopolice.on.ca/datasets/TorontoPS::auto-theft-open-data/
 
 #### Analysis
-[Data_Analysis_and_Visualization](./src/auto_theft_analysis_team26%20.ipynb)
+[Data_Analysis_and_Visualization](./src/auto_theft_analysis_and_viz.ipynb)
 
 #### Objective
 
