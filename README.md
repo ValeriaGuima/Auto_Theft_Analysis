@@ -30,15 +30,15 @@ In our second team project, we merged participants from two different teams to c
 The discussion centered around two main options: either building on previous projects or analyzing a new dataset. After a preliminary analysis of potential new datasets, the team decided to focus on the Auto Theft data from the Toronto Police Services' open data portal. This decision was based on the relevance of the data and its potential to yield valuable insights within the project's timeframe.
 
 Each team member selected a specific task to work on:
- Broad data cleaning and ensuring reproducibility of the report.
-- Analyzing where resources should be prioritized geographically.
+- Broad data cleaning and ensuring reproducibility of the report.
 - Determining when (time/days) resources should be allocated.
 - Examining auto theft trends over the years to assess whether funding for Auto Theft initiatives should be adjusted.
 - Investigating potential biases and errors in the dataset and producing a related writeup.
-
+- Analyzing where resources should be prioritized geographically.
 
 #####  Introdutory Data Analysis
 Team Member: Valeria Guimaraes
+[Initial_Data_Analysis](./src/initial_data_analysis.ipynb)
 
 - Data Import
 The dataset used in this analysis was sourced from the Toronto Police Services open data portal. The initial step involved importing the data into a pandas DataFrame for exploration and cleaning.
@@ -60,10 +60,11 @@ After cleaning, the dataset was reduced to the most relevant columns, which prov
 
 ![Overview_of_Auto_n_Toronto](./figs/overview_of_auto_theft_in_Toronto.png)
 
-[Initial_Data_Analysis](./src/initial_data_analysis.ipynb)
+
 
 ####  Answer When (time/ days) should resources be allocated
 Team Member: Hui Li
+[Regression_Analysis](./src/test_regression.ipynb)
 
 **Project Overview**
 
@@ -98,19 +99,17 @@ Teamwork and ChatGPT: Mentioned to show collaboration and the value of the assis
 
 ![Regression_Predictions_Analysis](./figs/regression_predictedXtrue_output.png)
 
-[Regression_Analysis](./src/test_regression.ipynb)
+
 
 ####  Auto theft trend over time
 Team Member: Ryan Tsui
+[Incidents_by_Premises](./src/auto_theft_trends_over_time.ipynb)
 
 Objective: Investigate whether the data suggests there is a growing trend in reported incidences over the years within the TPS dataset.
 
 ![Incidents_by_Year](./figs/premises_type.png)
 
 ![Incidents_by_Premises](./figs/proportion_by_premises.png)
-
-[Incidents_by_Premises](./src/auto_theft_trends_over_time.ipynb)
-
 
 ***Teamwork and Assistance***
 
