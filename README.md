@@ -102,7 +102,7 @@ Teamwork and ChatGPT: Mentioned to show collaboration and the value of the assis
 
 
 ####  Auto theft trend over time
-Team Member: Ryan Tsui
+Team Member: Ryan Tsui [Learnings Video](https://www.youtube.com/watch?v=e9B1CnKJFPY)
 [Incidents_by_Premises](./src/auto_theft_trends_over_time.ipynb)
 
 Objective: Investigate whether the data suggests there is a growing trend in reported incidences over the years within the TPS dataset.
